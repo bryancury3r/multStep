@@ -18,6 +18,6 @@
     box-sizing: border-box;
 }
 
-body, body, input, textarea, button {
-    font-family: 'Heebo', sans-serif;
+html, body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
 }
