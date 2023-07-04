@@ -62,8 +62,9 @@ form {
 }
 
 .step-progress strong::before {
+	counter-increment: step;
+	content: counter(step);
 	font-family: 'Titillium Web';
-	content: '1';
 	font-size: 1.4rem;
 
 	background-color: var(--color-base-gray-100);
@@ -81,4 +82,8 @@ form {
 .step-progress .active::before {
 	background-color: var(--color-produto-purple-mid);
 	color: var(--color-base-white);
+}
+
+.done::before {
+	content: '✔️';
 }
