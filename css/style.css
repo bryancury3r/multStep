@@ -84,6 +84,7 @@ form {
 	color: var(--color-base-white);
 }
 
-.done::before {
-	content: '✔️';
+.step-progress .done::before {
+	content: '✓';
+	background-color: var(--color-feedback-sucess-color);
 }
